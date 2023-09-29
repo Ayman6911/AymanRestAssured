@@ -19,8 +19,6 @@ public class AppTest {
         System.out.println("page number:"+res1.body().jsonPath().get("page"));
         System.out.println("print all id:"+res1.body().jsonPath().get("data.id"));
         System.out.println("first id:"+res1.body().jsonPath().get("data.id[0]"));
-
-
     }
 
 }
