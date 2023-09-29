@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="326059ba-a252-4acd-bb37-1204a6bcac91" name="Changes" comment="RestAssured01">
-      <change afterPath="$PROJECT_DIR$/src/test/java/AuthLoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestCreatUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestParam.java" afterDir="false" />
+    <list default="true" id="326059ba-a252-4acd-bb37-1204a6bcac91" name="Changes" comment="RestAssured02">
+      <change afterPath="$PROJECT_DIR$/src/test/java/BasicAuthGetUsers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +38,7 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.AuthLoginTest">
+  <component name="RunManager" selected="TestNG.BasicAuthGetUsers.BasicAuthGetUsers">
     <configuration name="AuthLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="drahemRestAssured" />
       <option name="PACKAGE_NAME" value="" />
@@ -66,11 +62,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCreatUser.testCreateUser" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="BasicAuthGetUsers.BasicAuthGetUsers" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="drahemRestAssured" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestCreatUser" />
-      <option name="METHOD_NAME" value="testCreateUser" />
+      <option name="MAIN_CLASS_NAME" value="BasicAuthGetUsers" />
+      <option name="METHOD_NAME" value="BasicAuthGetUsers" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -78,11 +74,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestParam.testGetAuthors" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCreatUser.testCreateUser" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="drahemRestAssured" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestParam" />
-      <option name="METHOD_NAME" value="testGetAuthors" />
+      <option name="MAIN_CLASS_NAME" value="TestCreatUser" />
+      <option name="METHOD_NAME" value="testCreateUser" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -104,11 +100,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.BasicAuthGetUsers.BasicAuthGetUsers" />
         <item itemvalue="TestNG.AuthLoginTest" />
         <item itemvalue="TestNG.AuthLoginTest.loginTest" />
         <item itemvalue="TestNG.TestCreatUser.testCreateUser" />
         <item itemvalue="TestNG.TestParam.testGetUsers" />
-        <item itemvalue="TestNG.TestParam.testGetAuthors" />
       </list>
     </recent_temporary>
   </component>
@@ -128,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696000900694</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="RestAssured02">
+      <created>1696029477748</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1696029477748</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -156,6 +159,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="RestAssured01" />
-    <option name="LAST_COMMIT_MESSAGE" value="RestAssured01" />
+    <MESSAGE value="RestAssured02" />
+    <option name="LAST_COMMIT_MESSAGE" value="RestAssured02" />
   </component>
 </project>
